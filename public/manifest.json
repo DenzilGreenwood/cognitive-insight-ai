@@ -1,0 +1,86 @@
+{
+  "name": "CognitiveInsight.ai",
+  "short_name": "CognitiveInsight",
+  "description": "Secure consulting platform with zero-knowledge encryption for confidential document management and collaboration.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["business", "productivity", "security"],
+  "icons": [
+    {
+      "src": "/next.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/vercel.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable any"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Sign In",
+      "short_name": "Sign In",
+      "description": "Quick access to sign in page",
+      "url": "/auth/signin",
+      "icons": [
+        {
+          "src": "/next.svg",
+          "sizes": "any"
+        }
+      ]
+    },
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "Access your secure dashboard",
+      "url": "/dashboard",
+      "icons": [
+        {
+          "src": "/next.svg",
+          "sizes": "any"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "dir": "ltr",
+  "iarc_rating_id": "",
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  },
+  "protocol_handlers": [],
+  "share_target": {
+    "action": "/share",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url",
+      "files": [
+        {
+          "name": "documents",
+          "accept": [
+            "application/pdf",
+            "application/msword",
+            "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            "text/plain"
+          ]
+        }
+      ]
+    }
+  }
+}
