@@ -2,9 +2,9 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState, useEffect } from "react";
-import { Brain, Menu, X, LogOut } from "lucide-react";
-import { Button } from "@/components/ui/Button";
+import { useState } from "react";
+import { Brain, Menu, X } from "lucide-react";
+import { AuthControls } from "@/components/auth";
 import { cn } from "@/lib/utils";
 
 interface NavItem {
@@ -24,34 +24,18 @@ const navigationItems: NavItem[] = [
 export default function Navigation() {
   const pathname = usePathname();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
-
-  useEffect(() => {
-    const checkAuthStatus = () => {
-      const token = localStorage.getItem('authToken');
-      setIsLoggedIn(!!token);
-    };
-
-    checkAuthStatus();
-  }, []);
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
-
-  const handleLogout = () => {
-    localStorage.removeItem('authToken');
-    setIsLoggedIn(false);
-    setIsMenuOpen(false);
-  };
 
   const isActiveLink = (href: string) => pathname === href;
 
   const getLinkClassName = (href: string, isMobile = false) => {
-    const baseClasses = isMobile 
+    const baseClasses = isMobile
       ? "block px-3 py-2 text-base font-medium transition-colors"
       : "text-gray-700 hover:text-brand-600 transition-colors font-medium";
-    
+
     const activeClasses = isActiveLink(href)
-      ? isMobile 
+      ? isMobile
         ? "text-brand-600 bg-brand-50"
         : "text-brand-600"
       : "";
@@ -74,41 +58,12 @@ export default function Navigation() {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             {navigationItems.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className={getLinkClassName(item.href)}
-              >
+              <Link key={item.href} href={item.href} className={getLinkClassName(item.href)}>
                 {item.label}
               </Link>
             ))}
-
-            {/* Authentication */}
             <div className="flex items-center space-x-4">
-              {isLoggedIn ? (
-                <Button
-                  variant="ghost"
-                  size="sm"
-                  onClick={handleLogout}
-                  className="text-red-600 hover:text-red-700"
-                >
-                  <LogOut className="h-4 w-4 mr-2" />
-                  Logout
-                </Button>
-              ) : (
-                <>
-                  <Link href="/auth/signin">
-                    <Button variant="ghost" size="sm">
-                      Sign In
-                    </Button>
-                  </Link>
-                  <Link href="/auth/signup">
-                    <Button size="sm">
-                      Get Started
-                    </Button>
-                  </Link>
-                </>
-              )}
+              <AuthControls onMenuClose={() => setIsMenuOpen(false)} />
             </div>
           </div>
 
@@ -116,7 +71,7 @@ export default function Navigation() {
           <div className="md:hidden flex items-center">
             <button
               onClick={toggleMenu}
-              className="text-gray-700 hover:text-brand-600 focus:outline-none focus:text-brand-600 p-2"
+              className="text-gray-700 hover:text-brand-600 focus:outline-none p-2"
               aria-label="Toggle navigation menu"
             >
               {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -138,33 +93,13 @@ export default function Navigation() {
                   {item.label}
                 </Link>
               ))}
-              
+
               {/* Mobile Authentication */}
-              <div className="border-t border-gray-200 pt-3 mt-3">
-                {isLoggedIn ? (
-                  <Button
-                    variant="ghost"
-                    size="sm"
-                    onClick={handleLogout}
-                    className="w-full justify-start text-red-600 hover:text-red-700"
-                  >
-                    <LogOut className="h-4 w-4 mr-2" />
-                    Logout
-                  </Button>
-                ) : (
-                  <div className="space-y-2">
-                    <Link href="/auth/signin" onClick={() => setIsMenuOpen(false)}>
-                      <Button variant="ghost" size="sm" className="w-full">
-                        Sign In
-                      </Button>
-                    </Link>
-                    <Link href="/auth/signup" onClick={() => setIsMenuOpen(false)}>
-                      <Button size="sm" className="w-full">
-                        Get Started
-                      </Button>
-                    </Link>
-                  </div>
-                )}
+              <div className="border-t border-gray-200 pt-3 mt-3 space-y-2">
+                <AuthControls 
+                  isMobile={true} 
+                  onMenuClose={() => setIsMenuOpen(false)} 
+                />
               </div>
             </div>
           </div>

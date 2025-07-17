@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation';
 import { signIn } from '@/lib/auth-mock';
 import { Brain, Eye, EyeOff, Loader2 } from 'lucide-react';
 
-export default function SignInPage() {
+export default function SignInForm() {
   const [formData, setFormData] = useState({
     email: '',
     password: '',

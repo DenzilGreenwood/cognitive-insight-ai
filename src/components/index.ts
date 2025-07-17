@@ -5,6 +5,9 @@ export { PasswordInput } from './ui/PasswordInput';
 export { PasswordValidator } from './ui/PasswordValidator';
 export { Card, CardHeader, CardContent, CardFooter } from './ui/Card';
 
+// Auth Components
+export { SignInForm, SignUpForm, AuthControls, useAuthState } from './auth';
+
 // Layout Components
 export { default as Navigation } from './layout/Navigation';
 export { default as Footer } from './layout/Footer';
