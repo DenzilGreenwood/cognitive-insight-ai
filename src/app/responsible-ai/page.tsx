@@ -1,30 +1,13 @@
 import Link from "next/link";
-import { Brain, Shield, Eye, Users, Lock, FileText, AlertTriangle } from "lucide-react";
-import Footer from "../layout/Footer";
+import { Shield, Eye, Users, Lock, FileText, AlertTriangle } from "lucide-react";
+import Navigation from "@/components/layout/Navigation";
+import Footer from "@/components/layout/Footer";
 
 export default function ResponsibleAI() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
       {/* Navigation */}
-      <nav className="bg-white/80 backdrop-blur-sm border-b border-blue-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between h-16">
-            <div className="flex items-center">
-              <Link href="/" className="flex items-center">
-                <Brain className="h-8 w-8 text-blue-600 mr-2" />
-                <span className="text-xl font-bold text-gray-900">CognitiveInsight.ai</span>
-              </Link>
-            </div>
-            <div className="hidden md:flex items-center space-x-8">
-              <Link href="/" className="text-gray-700 hover:text-blue-600 transition-colors">Home</Link>
-              <Link href="/about" className="text-gray-700 hover:text-blue-600 transition-colors">About</Link>
-              <Link href="/services" className="text-gray-700 hover:text-blue-600 transition-colors">Services</Link>
-              <Link href="/contact" className="text-gray-700 hover:text-blue-600 transition-colors">Contact</Link>
-              <Link href="/auth/signin" className="text-blue-600 hover:text-blue-800 transition-colors">Sign In</Link>
-            </div>
-          </div>
-        </div>
-      </nav>
+      <Navigation />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         {/* Header */}

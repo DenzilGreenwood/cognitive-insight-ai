@@ -1,7 +1,85 @@
 import Link from "next/link";
-import { Brain, Target, CheckCircle, ArrowRight } from "lucide-react";
+import { Brain, Target, ArrowRight } from "lucide-react";
+import { 
+  ServiceHero, 
+  ServiceIncludes, 
+  ServiceProcess, 
+  ServiceTargetAudience 
+} from "@/components";
 
 export default function ClaritySession() {
+  // Service data for components
+  const serviceIncludes = [
+    {
+      title: "90-Minute Deep Dive Session",
+      description: "Focused exploration of your specific challenge with expert guidance"
+    },
+    {
+      title: "Visual Clarity Map", 
+      description: "Custom-designed visual representation of your situation and pathways forward"
+    },
+    {
+      title: "Actionable Insights",
+      description: "Practical recommendations you can implement immediately"
+    },
+    {
+      title: "Summary Document",
+      description: "Comprehensive follow-up document with key insights and next steps"
+    },
+    {
+      title: "Resource Library Access",
+      description: "30-day access to relevant frameworks and tools"
+    },
+    {
+      title: "Follow-up Email Support", 
+      description: "One week of email support for clarification questions"
+    }
+  ];
+
+  const processSteps = [
+    {
+      title: "Pre-Session Preparation",
+      description: "Complete our structured intake form and receive a preparation guide to maximize session value."
+    },
+    {
+      title: "Context & Challenge Mapping",
+      description: "We begin by thoroughly understanding your situation, constraints, and desired outcomes."
+    },
+    {
+      title: "Multi-Perspective Analysis",
+      description: "Using proven frameworks and AI-assisted analysis, we examine your challenge from multiple angles."
+    },
+    {
+      title: "Insight Synthesis",
+      description: "We distill complex analysis into clear insights and create your personalized clarity map."
+    },
+    {
+      title: "Action Planning",
+      description: "Together, we develop concrete next steps and implementation strategies."
+    }
+  ];
+
+  const targetAudience = {
+    leftColumn: {
+      title: "Business Leaders Who:",
+      items: [
+        "Face complex strategic decisions",
+        "Need to navigate organizational change", 
+        "Want to validate their thinking",
+        "Seek an outside perspective"
+      ]
+    },
+    rightColumn: {
+      title: "Situations Like:",
+      items: [
+        "Market entry decisions",
+        "Team restructuring challenges",
+        "Technology adoption strategies", 
+        "Crisis response planning"
+      ]
+    }
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
       {/* Navigation */}
@@ -25,136 +103,22 @@ export default function ClaritySession() {
         </div>
       </nav>
 
-      {/* Hero Section */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="text-center mb-12">
-          <div className="bg-blue-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
-            <Target className="h-10 w-10 text-blue-600" />
-          </div>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Clarity Session
-          </h1>
-          <p className="text-xl text-gray-600 mb-8">
-            A focused 90-minute session designed to transform complexity into actionable clarity
-          </p>
-          <div className="text-3xl font-bold text-blue-600 mb-8">$297</div>
-        </div>
+        <ServiceHero 
+          icon={Target}
+          title="Clarity Session"
+          description="A focused 90-minute session designed to transform complexity into actionable clarity"
+          price="$297"
+        />
 
-        {/* What You Get */}
-        <div className="bg-white rounded-xl p-8 shadow-lg mb-12">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">What&apos;s Included</h2>
-          <div className="grid md:grid-cols-2 gap-6">
-            <div className="flex items-start">
-              <CheckCircle className="h-6 w-6 text-green-500 mr-3 mt-1" />
-              <div>
-                <h3 className="font-semibold text-gray-900 mb-1">90-Minute Deep Dive Session</h3>
-                <p className="text-gray-600">Focused exploration of your specific challenge with expert guidance</p>
-              </div>
-            </div>
-            <div className="flex items-start">
-              <CheckCircle className="h-6 w-6 text-green-500 mr-3 mt-1" />
-              <div>
-                <h3 className="font-semibold text-gray-900 mb-1">Visual Clarity Map</h3>
-                <p className="text-gray-600">Custom-designed visual representation of your situation and pathways forward</p>
-              </div>
-            </div>
-            <div className="flex items-start">
-              <CheckCircle className="h-6 w-6 text-green-500 mr-3 mt-1" />
-              <div>
-                <h3 className="font-semibold text-gray-900 mb-1">Actionable Insights</h3>
-                <p className="text-gray-600">Practical recommendations you can implement immediately</p>
-              </div>
-            </div>
-            <div className="flex items-start">
-              <CheckCircle className="h-6 w-6 text-green-500 mr-3 mt-1" />
-              <div>
-                <h3 className="font-semibold text-gray-900 mb-1">Summary Document</h3>
-                <p className="text-gray-600">Comprehensive follow-up document with key insights and next steps</p>
-              </div>
-            </div>
-            <div className="flex items-start">
-              <CheckCircle className="h-6 w-6 text-green-500 mr-3 mt-1" />
-              <div>
-                <h3 className="font-semibold text-gray-900 mb-1">Resource Library Access</h3>
-                <p className="text-gray-600">30-day access to relevant frameworks and tools</p>
-              </div>
-            </div>
-            <div className="flex items-start">
-              <CheckCircle className="h-6 w-6 text-green-500 mr-3 mt-1" />
-              <div>
-                <h3 className="font-semibold text-gray-900 mb-1">Follow-up Email Support</h3>
-                <p className="text-gray-600">One week of email support for clarification questions</p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <ServiceIncludes items={serviceIncludes} />
 
-        {/* Process */}
-        <div className="bg-white rounded-xl p-8 shadow-lg mb-12">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Our Process</h2>
-          <div className="space-y-8">
-            <div className="flex">
-              <div className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center mr-4 text-lg font-bold">1</div>
-              <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Pre-Session Preparation</h3>
-                <p className="text-gray-600">Complete our structured intake form and receive a preparation guide to maximize session value.</p>
-              </div>
-            </div>
-            <div className="flex">
-              <div className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center mr-4 text-lg font-bold">2</div>
-              <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Context & Challenge Mapping</h3>
-                <p className="text-gray-600">We begin by thoroughly understanding your situation, constraints, and desired outcomes.</p>
-              </div>
-            </div>
-            <div className="flex">
-              <div className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center mr-4 text-lg font-bold">3</div>
-              <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Multi-Perspective Analysis</h3>
-                <p className="text-gray-600">Using proven frameworks and AI-assisted analysis, we examine your challenge from multiple angles.</p>
-              </div>
-            </div>
-            <div className="flex">
-              <div className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center mr-4 text-lg font-bold">4</div>
-              <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Insight Synthesis</h3>
-                <p className="text-gray-600">We distill complex analysis into clear insights and create your personalized clarity map.</p>
-              </div>
-            </div>
-            <div className="flex">
-              <div className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center mr-4 text-lg font-bold">5</div>
-              <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Action Planning</h3>
-                <p className="text-gray-600">Together, we develop concrete next steps and implementation strategies.</p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <ServiceProcess steps={processSteps} />
 
-        {/* Who It&apos;s For */}
-        <div className="bg-gradient-to-br from-blue-600 to-indigo-600 rounded-xl p-8 text-white mb-12">
-          <h2 className="text-3xl font-bold mb-6 text-center">Perfect For</h2>
-          <div className="grid md:grid-cols-2 gap-6">
-            <div>
-              <h3 className="text-xl font-semibold mb-3">Business Leaders Who:</h3>
-              <ul className="space-y-2 text-blue-100">
-                <li>• Face complex strategic decisions</li>
-                <li>• Need to navigate organizational change</li>
-                <li>• Want to validate their thinking</li>
-                <li>• Seek an outside perspective</li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-xl font-semibold mb-3">Situations Like:</h3>
-              <ul className="space-y-2 text-blue-100">
-                <li>• Market entry decisions</li>
-                <li>• Team restructuring challenges</li>
-                <li>• Technology adoption strategies</li>
-                <li>• Crisis response planning</li>
-              </ul>
-            </div>
-          </div>
-        </div>
+        <ServiceTargetAudience 
+          leftColumn={targetAudience.leftColumn}
+          rightColumn={targetAudience.rightColumn}
+        />
 
         {/* Testimonial */}
         <div className="bg-white rounded-xl p-8 shadow-lg mb-12">

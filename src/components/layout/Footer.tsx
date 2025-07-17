@@ -26,20 +26,20 @@ const footerSections: FooterSection[] = [
     links: [
       { href: "/about", label: "About" },
       { href: "/contact", label: "Contact" },
-      { href: "/responsible-ai", label: "Responsible AI" },
+      
     ],
   },
   {
     title: "Legal",
     links: [
       { 
-        href: "https://www.myimaginaryfriends.ai/terms-of-service", 
+        href: "/terms-privacy-ethics", 
         label: "Terms, Privacy & Ethics",
         isExternal: true 
       },
       { 
-        href: "https://www.myimaginaryfriends.ai/responsible-ai", 
-        label: "Responsible AI Policy",
+        href: "/responsible-ai", 
+        label: "Responsible AI",
         isExternal: true 
       },
     ],

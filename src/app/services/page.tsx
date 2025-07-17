@@ -2,38 +2,15 @@
 
 import Link from "next/link";
 import { Users, FileText, CheckCircle, ArrowRight, Brain, Target, Shield } from "lucide-react";
+import  Navigation from "@/components/layout/Navigation";
+import Footer from "@/components/layout/Footer";
 
 export default function Services() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
       {/* Navigation */}
-      <nav className="bg-white/80 backdrop-blur-sm border-b border-blue-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between h-16">
-            <div className="flex items-center">
-              <Link href="/" className="flex items-center">
-                <Brain className="h-8 w-8 text-blue-600 mr-2" />
-                <span className="text-xl font-bold text-gray-900">CognitiveInsight.ai</span>
-              </Link>
-            </div>
-            <div className="hidden md:flex items-center space-x-8">
-              <Link href="/" className="text-gray-700 hover:text-blue-600 transition-colors">Home</Link>
-              <Link href="/about" className="text-gray-700 hover:text-blue-600 transition-colors">About</Link>
-              <Link href="/services" className="text-blue-600 font-semibold">Services</Link>
-              <Link href="/blog" className="text-gray-700 hover:text-blue-600 transition-colors">Blog</Link>
-              <Link href="/contact" className="text-gray-700 hover:text-blue-600 transition-colors">Contact</Link>
-              <Link href="/auth/signin" className="text-blue-600 hover:text-blue-800 transition-colors">Sign In</Link>
-              <Link 
-                href="/auth/signup" 
-                className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors"
-              >
-                Get Started
-              </Link>
-            </div>
-          </div>
-        </div>
-      </nav>
-
+      <Navigation />
+     
       {/* Hero Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="text-center mb-16">
@@ -342,49 +319,7 @@ export default function Services() {
       </div>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-4 gap-8">
-            <div>
-              <div className="flex items-center mb-4">
-                <Brain className="h-8 w-8 text-blue-400 mr-2" />
-                <span className="text-xl font-bold">CognitiveInsight.ai</span>
-              </div>
-              <p className="text-gray-400 mb-4">
-                Navigate complexity with clarity. AI-augmented consulting for confident decision-making.
-              </p>
-            </div>
-            <div>
-              <h3 className="font-semibold mb-4">Services</h3>
-              <ul className="space-y-2 text-sm text-gray-400">
-                <li><Link href="/services#clarity" className="hover:text-white transition-colors">Clarity Sessions</Link></li>
-                <li><Link href="/services#retainer" className="hover:text-white transition-colors">Monthly Retainer</Link></li>
-                <li><Link href="/services#research" className="hover:text-white transition-colors">Research Projects</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-semibold mb-4">Company</h3>
-              <ul className="space-y-2 text-sm text-gray-400">
-                <li><Link href="/about" className="hover:text-white transition-colors">About</Link></li>
-                <li><Link href="/blog" className="hover:text-white transition-colors">Blog</Link></li>
-                <li><Link href="/contact" className="hover:text-white transition-colors">Contact</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-semibold mb-4">Legal</h3>
-              <ul className="space-y-2 text-sm text-gray-400">
-                <li><a href="https://myimaginaryfriends.ai/privacy-policy" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Privacy Policy</a></li>
-                <li><a href="https://myimaginaryfriends.ai/terms-of-service" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Terms of Service</a></li>
-                <li><Link href="/responsible-ai" className="hover:text-white transition-colors">Responsible AI</Link></li>
-                <li><Link href="/security" className="hover:text-white transition-colors">Security</Link></li>
-              </ul>
-            </div>
-          </div>
-          <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm text-gray-400">
-            <p>&copy; 2025 CognitiveInsight.ai. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
