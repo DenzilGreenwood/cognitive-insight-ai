@@ -10,6 +10,7 @@ const inter = Inter({
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
+  themeColor: "#1e40af",
 };
 
 export const metadata: Metadata = {
@@ -18,6 +19,10 @@ export const metadata: Metadata = {
   keywords: "consulting, strategic advisory, clarity sessions, business insight, complexity navigation",
   authors: [{ name: "CognitiveInsight.ai" }],
   robots: "index, follow",
+  icons: {
+    icon: "/next.svg",
+  },
+  manifest: "/manifest.json",
   openGraph: {
     title: "CognitiveInsight.ai - Navigate Complexity with Clarity",
     description: "A secure, AI-augmented consulting platform that helps you navigate complexity, develop insight, and act with clarity.",
@@ -39,11 +44,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full">
-      <head>
-        <link rel="icon" href="/next.svg" type="image/svg+xml" />
-        <link rel="manifest" href="/manifest.json" />
-        <meta name="theme-color" content="#1e40af" />
-      </head>
       <body className={`${inter.variable} h-full antialiased bg-gray-50 font-sans`}>
         <div id="root" className="h-full">
           {children}

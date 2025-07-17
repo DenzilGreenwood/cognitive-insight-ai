@@ -90,7 +90,34 @@ export default function SignUpPage() {
             <span className="ml-2 text-2xl font-bold text-gray-900">CognitiveInsight.ai</span>
           </div>
           <h1 className="text-2xl font-bold text-gray-900 mb-2">Create your account</h1>
-          <p className="text-gray-600">Start your journey toward clarity and insight</p>
+          <p className="text-gray-600 mb-4">Start your journey toward clarity and insight</p>
+          
+          {/* Progress Indicator */}
+          <div className="mb-4">
+            <div className="flex items-center justify-center space-x-2">
+              <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-semibold">1</div>
+              <div className="w-12 h-1 bg-gray-200"></div>
+              <div className="w-8 h-8 bg-gray-200 text-gray-400 rounded-full flex items-center justify-center text-sm">2</div>
+              <div className="w-12 h-1 bg-gray-200"></div>
+              <div className="w-8 h-8 bg-gray-200 text-gray-400 rounded-full flex items-center justify-center text-sm">3</div>
+            </div>
+            <div className="flex justify-between text-xs text-gray-500 mt-2 px-2">
+              <span>Account</span>
+              <span>Setup</span>
+              <span>Dashboard</span>
+            </div>
+          </div>
+
+          {/* Dashboard Preview */}
+          <div className="bg-blue-50 p-4 rounded-lg mb-4">
+            <p className="text-sm text-blue-800 font-medium mb-2">🎯 After signup, you&apos;ll access:</p>
+            <ul className="text-xs text-blue-700 space-y-1">
+              <li>• Secure clarity mapping tools</li>
+              <li>• Strategic insight reports</li>
+              <li>• Session booking & management</li>
+              <li>• Encrypted document library</li>
+            </ul>
+          </div>
         </div>
 
         {/* Error Message */}
