@@ -166,7 +166,7 @@ export default function SignInPage() {
             <div>
               <p className="text-sm text-blue-800 font-medium">Zero-Knowledge Security</p>
               <p className="text-xs text-blue-600 mt-1">
-                Your data is encrypted client-side. We never have access to your unencrypted information.
+                Your data is encrypted client-side. I never have access to your unencrypted information.
               </p>
             </div>
           </div>

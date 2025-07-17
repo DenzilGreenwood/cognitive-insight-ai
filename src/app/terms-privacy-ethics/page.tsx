@@ -24,7 +24,7 @@ export default function TermsPrivacyEthics() {
             <p><strong>Version:</strong> 1.0.0</p>
           </div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mt-6">
-            This document explains how CognitiveInsight.ai works, what you can expect from us, and how we handle your strategic business information with the highest standards of security and confidentiality.
+            This document explains how CognitiveInsight.ai works, what you can expect from the platform, and how your strategic business information is handled with the highest standards of security and confidentiality.
           </p>
         </div>
 
@@ -46,18 +46,18 @@ export default function TermsPrivacyEthics() {
               <li><strong>Research Projects:</strong> Deep-dive analysis and comprehensive strategic research initiatives</li>
             </ul>
             <p>
-              By using our services, you confirm you are authorized to agree to these terms, either for yourself or on behalf of your organization. You also agree to the terms of any third-party AI services we utilize, such as OpenAI&apos;s Terms, Google&apos;s Terms, and Anthropic&apos;s Terms of Service.
+              By using the services, you confirm you are authorized to agree to these terms, either for yourself or on behalf of your organization. You also agree to the terms of any third-party AI services utilized, such as OpenAI&apos;s Terms, Google&apos;s Terms, and Anthropic&apos;s Terms of Service.
             </p>
           </div>
         </div>
 
-        {/* Section 2: What Our Services Do */}
+        {/* Section 2: What CognitiveInsight.ai Services Do */}
         <div className="bg-white rounded-xl p-8 shadow-lg mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center">
             <div className="bg-blue-100 w-10 h-10 rounded-full flex items-center justify-center mr-4">
               <span className="text-blue-600 font-bold">2</span>
             </div>
-            What Our Services Do (and Don&apos;t Do)
+            What CognitiveInsight.ai Services Do (and Don&apos;t Do)
           </h2>
           <div className="space-y-4 text-gray-700">
             <ul className="list-disc list-inside space-y-2">
@@ -72,7 +72,7 @@ export default function TermsPrivacyEthics() {
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">Important Disclaimer</h3>
                   <p className="text-gray-700">
-                    Our services are strategic consulting and advisory in nature. We are not licensed financial advisors, legal counsel, medical professionals, or certified business consultants in regulated fields. Our AI-augmented strategic guidance should complement, not replace, professional expertise in specialized domains requiring licensed practitioners.
+                    The services are strategic consulting and advisory in nature. CognitiveInsight.ai is not a licensed financial advisor, legal counsel, medical professional, or certified business consultant in regulated fields. AI-augmented strategic guidance should complement, not replace, professional expertise in specialized domains requiring licensed practitioners.
                   </p>
                   <p className="text-gray-700 mt-2">
                     For matters requiring licensed professional services (legal, financial, medical, accounting, or other regulated fields), please consult appropriate licensed professionals.
@@ -98,7 +98,7 @@ export default function TermsPrivacyEthics() {
               <div className="space-y-3">
                 <div className="flex items-start">
                   <div className="w-3 h-3 bg-blue-600 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                  <p><strong>Minimal Data Collection:</strong> We collect only essential data such as contact information, billing details, and session preferences. All payments are securely processed by Stripe; we never store your full payment details.</p>
+                  <p><strong>Minimal Data Collection:</strong> Only essential data is collected such as contact information, billing details, and session preferences. All payments are securely processed by Stripe; your full payment details are never stored.</p>
                 </div>
                 <div className="flex items-start">
                   <div className="w-3 h-3 bg-blue-600 rounded-full mt-2 mr-3 flex-shrink-0"></div>
@@ -112,7 +112,7 @@ export default function TermsPrivacyEthics() {
               <div className="space-y-3">
                 <div className="flex items-start">
                   <div className="w-3 h-3 bg-blue-600 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                  <p><strong>No Tracking or Selling:</strong> We do not use your business data for advertising, profiling, or sell it to anyone under any circumstances.</p>
+                  <p><strong>No Tracking or Selling:</strong> Your business data is not used for advertising, profiling, or sold to anyone under any circumstances.</p>
                 </div>
                 <div className="flex items-start">
                   <div className="w-3 h-3 bg-blue-600 rounded-full mt-2 mr-3 flex-shrink-0"></div>
@@ -174,7 +174,7 @@ export default function TermsPrivacyEthics() {
               <li><strong>Client-first:</strong> Our strategic tools are built to empower your decision-making, not manipulate outcomes</li>
               <li><strong>End-to-end encryption:</strong> Your strategic insights, competitive intelligence, and business plans are encrypted before storage</li>
               <li><strong>Minimal data collection:</strong> We only collect what&apos;s necessary to provide exceptional strategic consulting services</li>
-              <li><strong>No &quot;Dark Patterns&quot;:</strong> We do not use manipulative design patterns to pressure decisions, hide important information, or make cancellation difficult</li>
+              <li><strong>No &quot;Dark Patterns&quot;:</strong> Manipulative design patterns are not used to pressure decisions, hide important information, or make cancellation difficult</li>
               <li><strong>Transparency:</strong> We&apos;ll always keep you informed about service updates, AI capabilities, and methodology changes</li>
               <li><strong>Professional Standards:</strong> We maintain the highest standards of business consulting ethics and confidentiality</li>
             </ul>
@@ -193,7 +193,7 @@ export default function TermsPrivacyEthics() {
             <ul className="list-disc list-inside space-y-2">
               <li><strong>Strategic Analysis:</strong> AI helps identify patterns, trends, and insights in complex business scenarios</li>
               <li><strong>Encrypted Processing:</strong> All AI-analyzed content is encrypted immediately after processing</li>
-              <li><strong>No Model Training:</strong> We do not use your strategic content or business intelligence to train AI models or for any purpose beyond providing your requested consulting services</li>
+              <li><strong>No Model Training:</strong> Your strategic content or business intelligence is not used to train AI models or for any purpose beyond providing your requested consulting services</li>
               <li><strong>Multi-Perspective Analysis:</strong> AI assists in examining challenges from multiple strategic viewpoints</li>
               <li><strong>Scenario Planning:</strong> AI-augmented modeling for strategic planning and risk assessment</li>
             </ul>
@@ -211,8 +211,8 @@ export default function TermsPrivacyEthics() {
           <div className="space-y-4 text-gray-700">
             <p>To maintain our professional standards and protect all clients, you agree to:</p>
             <ul className="list-disc list-inside space-y-2 ml-4">
-              <li>Use our services for legitimate strategic consulting purposes</li>
-              <li>Not misuse, reverse-engineer, or exploit our services or underlying AI models</li>
+              <li>Use the services for legitimate strategic consulting purposes</li>
+              <li>Not misuse, reverse-engineer, or exploit the services or underlying AI models</li>
               <li>Not upload or discuss content that is illegal, defamatory, or violates third-party rights</li>
               <li>Respect the confidentiality of our methodology and proprietary frameworks</li>
               <li>Maintain professional standards in all interactions</li>
@@ -266,7 +266,7 @@ export default function TermsPrivacyEthics() {
           </h2>
           <div className="space-y-4 text-gray-700">
             <ul className="list-disc list-inside space-y-2">
-              <li>You retain ownership of all strategic insights, business intelligence, and recommendations we provide to you</li>
+              <li>You retain ownership of all strategic insights, business intelligence, and recommendations provided to you</li>
               <li>We own our consulting methodologies, proprietary frameworks, platform code, branding, and design</li>
               <li>You may not resell, copy, or distribute our methodologies, frameworks, or platform elements without written permission</li>
               <li>Strategic recommendations and insights: You have full commercial rights to implement and benefit from our strategic guidance</li>
@@ -328,7 +328,7 @@ export default function TermsPrivacyEthics() {
               <li><strong>Client-Side Encryption:</strong> All strategic content is encrypted on your device using AES-256 encryption with PBKDF2 key derivation (310,000 iterations) before being stored in our cloud database</li>
               <li><strong>User-Controlled Keys:</strong> Only you hold the key to your business data. Without your passphrase or recovery key, your strategic information cannot be recovered or accessed by anyone—including us</li>
               <li><strong>AI Processing Security:</strong> When using AI features powered by third-party providers, your input is securely transmitted for processing. Only encrypted versions are stored in our database</li>
-              <li><strong>No Data for Model Training:</strong> We do not use your strategic content to train AI models or for any purpose other than providing your requested consulting services</li>
+              <li><strong>No Data for Model Training:</strong> Your strategic content is not used to train AI models or for any purpose other than providing your requested consulting services</li>
               <li><strong>SOC 2 & ISO 27001 Compliance:</strong> Our infrastructure partners maintain enterprise security certifications</li>
             </ul>
           </div>
@@ -363,7 +363,7 @@ export default function TermsPrivacyEthics() {
           </h2>
           <div className="space-y-4 text-gray-700">
             <p>This document serves as the comprehensive Terms of Service, Privacy Policy, and Ethics Policy for CognitiveInsight.ai and all associated strategic consulting services.</p>
-            <p>We may update these terms occasionally to reflect service improvements or legal requirements. If changes are significant, we&apos;ll notify you through email or our platform. By continuing to use our services, you accept the updated terms.</p>
+            <p>These terms may be updated occasionally to reflect service improvements or legal requirements. If changes are significant, you&apos;ll be notified through email or the platform. By continuing to use the services, you accept the updated terms.</p>
             <p>For material changes affecting existing engagements, we&apos;ll provide 30 days notice and opportunity to discuss modifications.</p>
           </div>
         </div>
@@ -395,7 +395,7 @@ export default function TermsPrivacyEthics() {
             Contact Us Directly
           </Link>
           <p className="text-blue-200 text-sm mt-6">
-            Thank you for being a strategic partner in our mission to navigate complexity with clarity.
+            Thank you for being a strategic partner in my mission to navigate complexity with clarity.
           </p>
         </div>
       </div>

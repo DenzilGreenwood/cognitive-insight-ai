@@ -66,7 +66,7 @@ export default function MonthlyRetainer() {
                 <Users className="h-8 w-8 text-green-600" />
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Extended Team Member</h3>
-              <p className="text-gray-600">We become part of your strategic thinking process, not just external consultants.</p>
+              <p className="text-gray-600">I become part of your strategic thinking process, not just an external consultant.</p>
             </div>
           </div>
         </div>
@@ -332,7 +332,7 @@ export default function MonthlyRetainer() {
             </div>
             <div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Do you work with my existing team?</h3>
-              <p className="text-gray-600">Absolutely. We integrate seamlessly with your team and can participate in your regular strategic meetings.</p>
+              <p className="text-gray-600">Absolutely. I integrate seamlessly with your team and can participate in your regular strategic meetings.</p>
             </div>
             <div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">How do you handle confidential information?</h3>

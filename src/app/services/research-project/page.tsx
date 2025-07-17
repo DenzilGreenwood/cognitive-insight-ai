@@ -136,7 +136,7 @@ export default function ResearchProject() {
 
         {/* Research Process */}
         <div className="bg-white rounded-xl p-8 shadow-lg mb-12">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Our Research Process</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">The Research Process</h2>
           <div className="space-y-8">
             <div className="flex">
               <div className="bg-purple-600 text-white w-10 h-10 rounded-full flex items-center justify-center mr-4 text-lg font-bold">1</div>
@@ -353,15 +353,15 @@ export default function ResearchProject() {
           <div className="space-y-6">
             <div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">How do you ensure research quality and validity?</h3>
-              <p className="text-gray-600">We follow rigorous academic and industry standards, use multiple validation methods, and employ peer review processes throughout the research.</p>
+              <p className="text-gray-600">Rigorous academic and industry standards are followed, multiple validation methods are used, and peer review processes are employed throughout the research.</p>
             </div>
             <div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Can you work with our existing data and systems?</h3>
-              <p className="text-gray-600">Yes, we can integrate with your current data sources and systems while maintaining security and confidentiality standards.</p>
+              <p className="text-gray-600">Yes, integration with your current data sources and systems is possible while maintaining security and confidentiality standards.</p>
             </div>
             <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">What if our research questions change during the project?</h3>
-              <p className="text-gray-600">We build flexibility into our methodology and can adapt to evolving requirements within reasonable scope changes.</p>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">What if your research questions change during the project?</h3>
+              <p className="text-gray-600">Flexibility is built into the methodology and adaptation to evolving requirements within reasonable scope changes is possible.</p>
             </div>
             <div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Do you provide ongoing access to research data?</h3>

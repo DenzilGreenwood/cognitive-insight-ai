@@ -19,7 +19,7 @@ export default function Services() {
             <span className="text-blue-600 block">Expert Guidance</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-            Our AI-augmented consulting services help you cut through noise, develop clarity, 
+            My AI-augmented consulting services help you cut through noise, develop clarity, 
             and make confident decisions in an uncertain world.
           </p>
         </div>
@@ -212,21 +212,21 @@ export default function Services() {
                 <span className="text-2xl font-bold text-blue-600">1</span>
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Initial Consultation</h3>
-              <p className="text-gray-600">We understand your challenge and goals through a comprehensive intake process.</p>
+              <p className="text-gray-600">The process begins by understanding your challenge and goals through a comprehensive intake.</p>
             </div>
             <div className="text-center">
               <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-blue-600">2</span>
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Deep Analysis</h3>
-              <p className="text-gray-600">Our AI-augmented process analyzes your situation from multiple perspectives.</p>
+              <p className="text-gray-600">The AI-augmented process analyzes your situation from multiple perspectives.</p>
             </div>
             <div className="text-center">
               <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-blue-600">3</span>
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Insight Development</h3>
-              <p className="text-gray-600">We synthesize findings into clear, actionable insights and recommendations.</p>
+              <p className="text-gray-600">Findings are synthesized into clear, actionable insights and recommendations.</p>
             </div>
             <div className="text-center">
               <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -244,7 +244,7 @@ export default function Services() {
             <Shield className="h-12 w-12 text-blue-600 mx-auto mb-4" />
             <h3 className="text-xl font-semibold text-gray-900 mb-3">Privacy-First</h3>
             <p className="text-gray-600">
-              Zero-knowledge encryption ensures your sensitive data never reaches our servers in unencrypted form.
+              Zero-knowledge encryption ensures your sensitive data never reaches the servers in unencrypted form.
             </p>
           </div>
           <div className="bg-white rounded-xl p-8 shadow-lg text-center">
@@ -270,7 +270,7 @@ export default function Services() {
             <div>
               <h4 className="text-lg font-semibold text-gray-900 mb-2">What makes your approach different?</h4>
               <p className="text-gray-600 mb-4">
-                We combine human expertise with AI-powered analysis to deliver insights faster and more comprehensively than traditional consulting. Our privacy-first approach ensures your data remains secure.
+                I combine human expertise with AI-powered analysis to deliver insights faster and more comprehensively than traditional consulting. My privacy-first approach ensures your data remains secure.
               </p>
             </div>
             <div>
@@ -282,13 +282,13 @@ export default function Services() {
             <div>
               <h4 className="text-lg font-semibold text-gray-900 mb-2">What if I&apos;m not satisfied?</h4>
               <p className="text-gray-600 mb-4">
-                We offer a satisfaction guarantee. If you&apos;re not completely satisfied with your Clarity Session, we&apos;ll work with you to make it right or provide a full refund.
+                A satisfaction guarantee is offered. If you&apos;re not completely satisfied with your Clarity Session, I will work with you to make it right or provide a full refund.
               </p>
             </div>
             <div>
               <h4 className="text-lg font-semibold text-gray-900 mb-2">Can you handle confidential information?</h4>
               <p className="text-gray-600 mb-4">
-                Absolutely. Our zero-knowledge encryption architecture ensures that sensitive information is protected at the highest level. We also sign NDAs when required.
+                Absolutely. Zero-knowledge encryption architecture ensures that sensitive information is protected at the highest level. NDAs are also signed when required.
               </p>
             </div>
           </div>

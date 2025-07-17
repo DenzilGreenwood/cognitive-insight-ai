@@ -29,7 +29,7 @@ const defaultSecurityFeatures = [
   },
   {
     title: "No Data Mining:",
-    description: "We don't sell your data, train AI models on your information, or use your insights for any purpose other than serving you."
+    description: "Your data is not sold, AI models are not trained on your information, and your insights are not used for any purpose other than serving you."
   },
   {
     title: "Compliance Ready:",
@@ -38,8 +38,8 @@ const defaultSecurityFeatures = [
 ];
 
 export default function TechnologyPhilosophy({ 
-  title = "Our Technology Philosophy",
-  description = "We believe AI should augment human intelligence, not replace it. Our technology stack is designed to:",
+  title = "CognitiveInsight.ai's Technology Philosophy",
+  description = "AI is designed to augment human intelligence, not replace it. The technology stack is designed to:",
   features = defaultFeatures,
   securityTitle = "Security & Privacy",
   securityFeatures = defaultSecurityFeatures

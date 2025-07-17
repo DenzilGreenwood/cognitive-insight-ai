@@ -11,20 +11,20 @@ interface ApproachProps {
 const defaultSteps: ApproachStep[] = [
   {
     title: "Deep Understanding",
-    description: "We invest time in truly understanding your context, challenges, and aspirations before proposing solutions."
+    description: "I invest time in truly understanding your context, challenges, and aspirations before proposing solutions."
   },
   {
     title: "Multi-Perspective Analysis",
-    description: "We examine challenges from multiple angles using both human intuition and AI-powered pattern recognition."
+    description: "Challenges are examined from multiple angles using both human intuition and AI-powered pattern recognition."
   },
   {
     title: "Actionable Synthesis",
-    description: "We distill complex analysis into clear insights and practical recommendations you can act on immediately."
+    description: "Complex analysis is distilled into clear insights and practical recommendations you can act on immediately."
   }
 ];
 
 export default function Approach({ 
-  title = "Our Approach",
+  title = "CognitiveInsight.ai's Approach",
   steps = defaultSteps
 }: ApproachProps) {
   return (

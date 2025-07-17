@@ -153,7 +153,7 @@ export default function Contact() {
                   <div>
                     <p className="text-sm text-gray-600">Location</p>
                     <p className="text-gray-900">Remote & Global</p>
-                    <p className="text-xs text-gray-500">We accommodate all time zones</p>
+                    <p className="text-xs text-gray-500">All time zones are accommodated</p>
                   </div>
                 </div>
               </div>
@@ -166,7 +166,7 @@ export default function Contact() {
                 <h3 className="text-lg font-semibold text-gray-900">Response Time</h3>
               </div>
               <p className="text-gray-600 mb-3">
-                We typically respond to all inquiries within 24 hours during business days.
+                I typically respond to all inquiries within 24 hours during business days.
               </p>
               <p className="text-sm text-gray-500">
                 For urgent matters, please mention it in your message.
@@ -207,12 +207,12 @@ export default function Contact() {
 
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">Do you work with international clients?</h3>
                 <p className="text-gray-600 mb-4">
-                  Yes, we work with clients globally. Our sessions are conducted virtually, and we can accommodate different time zones.
+                  Yes, clients are served globally. Sessions are conducted virtually, and different time zones can be accommodated.
                 </p>
 
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">What industries do you serve?</h3>
                 <p className="text-gray-600">
-                  We work across all industries, with particular expertise in technology, healthcare, financial services, and professional services.
+                  I work across all industries, with particular expertise in technology, healthcare, financial services, and professional services.
                 </p>
               </div>
               <div>
@@ -223,12 +223,12 @@ export default function Contact() {
 
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">How do you ensure confidentiality?</h3>
                 <p className="text-gray-600 mb-4">
-                  We use zero-knowledge encryption for all data and communications. NDAs are standard for all engagements.
+                  Zero-knowledge encryption is used for all data and communications. NDAs are standard for all engagements.
                 </p>
 
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">What if I&apos;m not satisfied?</h3>
                 <p className="text-gray-600">
-                  We offer a satisfaction guarantee on all our services. If you&apos;re not completely satisfied, we&apos;ll work to make it right.
+                  A satisfaction guarantee is offered on all services. If you&apos;re not completely satisfied, I&apos;ll work to make it right.
                 </p>
               </div>
             </div>

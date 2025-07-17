@@ -30,7 +30,7 @@ export default function SecuritySection() {
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
               Your sensitive data is encrypted client-side with AES-GCM 256-bit encryption. 
-              We never have access to your unencrypted information.
+              I never have access to your unencrypted information.
             </p>
           </div>
           
@@ -59,7 +59,7 @@ export default function SecuritySection() {
               href="/responsible-ai" 
               className="text-brand-600 hover:text-brand-700 font-semibold transition-colors"
             >
-              Read our Security Whitepaper →
+              Read CognitiveInsight.ai&apos;s Security Whitepaper →
             </Link>
           </div>
         </CardContent>

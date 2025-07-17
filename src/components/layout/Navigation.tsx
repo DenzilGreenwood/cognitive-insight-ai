@@ -17,6 +17,7 @@ const navigationItems: NavItem[] = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
   { href: "/services", label: "Services" },
+  { href: "/early-access", label: "Early Access" },
   { href: "/contact", label: "Contact" },
 ];
 

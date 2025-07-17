@@ -31,3 +31,12 @@ export { default as Approach } from './sections/Approach';
 export { default as TechnologyPhilosophy } from './sections/TechnologyPhilosophy';
 export { default as FounderProfile } from './sections/FounderProfile';
 export { default as CallToAction } from './sections/CallToAction';
+
+// Early Release Components
+export { 
+  EarlyAccessHero, 
+  PlatformVision, 
+  FeedbackForm, 
+  DevelopmentRoadmap, 
+  ExploreMore 
+} from './EarlyRelease';

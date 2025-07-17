@@ -126,7 +126,7 @@ export default function BlogPage() {
               <div className="md:w-1/3 bg-gradient-to-br from-blue-500 to-indigo-600 p-8 flex items-center justify-center">
                 <div className="text-white text-center">
                   <h3 className="text-2xl font-bold mb-2">Featured Post</h3>
-                  <p className="text-blue-100">Latest insights from our team</p>
+                  <p className="text-blue-100">Latest insights from CognitiveInsight.ai</p>
                 </div>
               </div>
               <div className="md:w-2/3 p-8">
@@ -228,7 +228,7 @@ export default function BlogPage() {
                 </Button>
               </div>
               <p className="text-xs text-gray-500 mt-4">
-                We respect your privacy. Unsubscribe at any time.
+                Your privacy is respected. Unsubscribe at any time.
               </p>
             </CardContent>
           </Card>

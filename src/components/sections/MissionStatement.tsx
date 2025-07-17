@@ -7,7 +7,7 @@ interface MissionStatementProps {
 }
 
 export default function MissionStatement({ 
-  title = "Our Mission",
+  title = "My Mission",
   mission,
   icon = <Target className="h-8 w-8 text-blue-600" />
 }: MissionStatementProps) {

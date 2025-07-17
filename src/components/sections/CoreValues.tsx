@@ -20,22 +20,22 @@ const defaultValues: CoreValue[] = [
   {
     icon: <Heart className="h-8 w-8 text-blue-600" />,
     title: "Integrity", 
-    description: "We provide honest, unbiased insights even when they challenge conventional thinking or popular trends."
+    description: "Honest, unbiased insights are provided even when they challenge conventional thinking or popular trends."
   },
   {
     icon: <Award className="h-8 w-8 text-blue-600" />,
     title: "Excellence",
-    description: "We hold ourselves to the highest standards in both our analytical rigor and our service delivery."
+    description: "The highest standards are upheld in both analytical rigor and service delivery."
   },
   {
     icon: <Users className="h-8 w-8 text-blue-600" />,
     title: "Partnership",
-    description: "We work alongside you as partners in your success, not as distant consultants with predetermined solutions."
+    description: "I work alongside you as a partner in your success, not as a distant consultant with predetermined solutions."
   }
 ];
 
 export default function CoreValues({ 
-  title = "Our Core Values",
+  title = "CognitiveInsight.ai's Core Values",
   values = defaultValues
 }: CoreValuesProps) {
   return (

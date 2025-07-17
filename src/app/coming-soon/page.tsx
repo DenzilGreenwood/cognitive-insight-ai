@@ -227,8 +227,8 @@ export default function ComingSoon() {
         <div className="bg-white rounded-xl p-8 shadow-lg text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Have an Idea?</h2>
           <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
-            We love hearing from our users! If you have ideas for features that would help you make better strategic decisions, 
-            we want to hear about them. Many of our best features come from user suggestions.
+            I love hearing from users! If you have ideas for features that would help you make better strategic decisions, 
+            I want to hear about them. Many of the best features come from user suggestions.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 

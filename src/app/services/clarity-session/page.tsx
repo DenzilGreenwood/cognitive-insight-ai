@@ -43,7 +43,7 @@ export default function ClaritySession() {
     },
     {
       title: "Context & Challenge Mapping",
-      description: "We begin by thoroughly understanding your situation, constraints, and desired outcomes."
+      description: "The process begins by thoroughly understanding your situation, constraints, and desired outcomes."
     },
     {
       title: "Multi-Perspective Analysis",
@@ -51,11 +51,11 @@ export default function ClaritySession() {
     },
     {
       title: "Insight Synthesis",
-      description: "We distill complex analysis into clear insights and create your personalized clarity map."
+      description: "Complex analysis is distilled into clear insights and your personalized clarity map is created."
     },
     {
       title: "Action Planning",
-      description: "Together, we develop concrete next steps and implementation strategies."
+      description: "Together, concrete next steps and implementation strategies are developed."
     }
   ];
 
@@ -193,7 +193,7 @@ export default function ClaritySession() {
             </div>
             <div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Can I reschedule if needed?</h3>
-              <p className="text-gray-600">Yes, we offer flexible rescheduling up to 24 hours before your session.</p>
+              <p className="text-gray-600">Yes, flexible rescheduling is offered up to 24 hours before your session.</p>
             </div>
             <div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Is my information kept confidential?</h3>

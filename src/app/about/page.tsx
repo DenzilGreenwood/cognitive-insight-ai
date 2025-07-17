@@ -13,12 +13,12 @@ import {
 
 export default function About() {
   const storyContent = {
-    title: "Our Story",
+    title: "My Story",
     content: [
       "CognitiveInsight.ai was born from a simple observation: in our data-rich, hyper-connected world, leaders often find themselves drowning in information but starving for insight.",
       "Traditional consulting, while valuable, often falls short in our rapidly changing environment. Meanwhile, AI tools, despite their power, lack the nuanced understanding that complex business challenges require.",
-      "We saw an opportunity to bridge this gap—combining the analytical power of artificial intelligence with deep human expertise, all while maintaining the highest standards of privacy and security.",
-      "Today, we serve leaders across industries who need more than just data—they need clarity, confidence, and actionable pathways forward."
+      "I saw an opportunity to bridge this gap—combining the analytical power of artificial intelligence with deep human expertise, all while maintaining the highest standards of privacy and security.",
+      "Today, I serve leaders across industries who need more than just data—they need clarity, confidence, and actionable pathways forward."
     ]
   };
 
@@ -28,7 +28,7 @@ export default function About() {
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <AboutHero 
-          description="We believe that in a world of overwhelming complexity, clarity is the ultimate competitive advantage. Our mission is to help leaders and organizations navigate uncertainty with confidence."
+          description="At CognitiveInsight.ai, clarity is believed to be the ultimate competitive advantage. My mission is to help leaders and organizations navigate uncertainty with confidence."
         />
 
         <MissionStatement 

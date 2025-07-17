@@ -16,13 +16,13 @@ export default function ResponsibleAI() {
             <Shield className="h-10 w-10 text-blue-600" />
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Our Commitment to Responsible AI
+            My Commitment to Responsible AI
           </h1>
           <div className="text-sm text-gray-500 mb-4">
             <p><strong>Last Updated:</strong> July 16, 2025</p>
           </div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            At CognitiveInsight.ai, we build strategic consulting solutions that empower leaders to navigate complexity with clarity—while upholding the highest standards of privacy, ethics, and transparency.
+            At CognitiveInsight.ai, I build strategic consulting solutions that empower leaders to navigate complexity with clarity—while upholding the highest standards of privacy, ethics, and transparency.
           </p>
         </div>
 
@@ -113,7 +113,7 @@ export default function ResponsibleAI() {
               </div>
               <div className="flex items-start">
                 <div className="w-3 h-3 bg-blue-600 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                <p className="text-gray-700">We comply with major privacy regulations (GDPR, CCPA, SOX), giving you complete control over your data</p>
+                <p className="text-gray-700">Compliance with major privacy regulations (GDPR, CCPA, SOX) is maintained, giving you complete control over your data</p>
               </div>
             </div>
             <div className="space-y-4">
@@ -141,9 +141,9 @@ export default function ResponsibleAI() {
           </div>
           <div className="space-y-4 text-gray-700">
             <p>
-              At CognitiveInsight.ai, we do not build or train our own foundational AI models. We carefully select trusted third-party AI providers (such as OpenAI, Google Gemini, Anthropic Claude, or others) who meet our strict privacy and ethical criteria for business consulting applications.
+              At CognitiveInsight.ai, I do not build or train foundational AI models. Trusted third-party AI providers (such as OpenAI, Google Gemini, Anthropic Claude, or others) are carefully selected to meet strict privacy and ethical criteria for business consulting applications.
             </p>
-            <p className="font-semibold text-gray-900">Our AI provider selection criteria include partners that:</p>
+            <p className="font-semibold text-gray-900">AI provider selection criteria include partners that:</p>
             <div className="grid md:grid-cols-2 gap-6 mt-4">
               <ul className="space-y-3">
                 <li className="flex items-start">
@@ -175,10 +175,10 @@ export default function ResponsibleAI() {
               </ul>
             </div>
             <p className="mt-6">
-              We provide a secure environment for leaders to engage with these AI tools for strategic decision-making. What you analyze, explore, or strategize is encrypted on your device—we cannot read or access your business intelligence. Data sent to AI providers is only for processing your specific analytical requests and is not stored by us in its unencrypted form.
+              A secure environment is provided for leaders to engage with these AI tools for strategic decision-making. What you analyze, explore, or strategize is encrypted on your device—your business intelligence cannot be read or accessed. Data sent to AI providers is only for processing your specific analytical requests and is not stored in its unencrypted form.
             </p>
             <p>
-              We are committed to creating a secure space where business leaders can leverage AI for strategic planning, competitive analysis, market insights, and organizational development. While we don&apos;t directly control how foundational AI models are built, we align ourselves with providers that meet our strict ethical and privacy expectations and advocate for better standards industry-wide.
+              The platform is committed to creating a secure space where business leaders can leverage AI for strategic planning, competitive analysis, market insights, and organizational development. While foundational AI models are not directly controlled, alignment with providers that meet strict ethical and privacy expectations is maintained, and advocacy for better standards industry-wide continues.
             </p>
           </div>
         </div>
@@ -190,7 +190,7 @@ export default function ResponsibleAI() {
             <h2 className="text-3xl font-bold text-gray-900">AI Provider Disclosure</h2>
           </div>
           <p className="text-gray-700 mb-6">
-            We may use various third-party AI engines based on consulting needs and to enhance strategic analysis quality. Each provider has publicly stated data use and retention policies, which we respect. These choices are made strategically to increase accessibility and responsible adoption of AI technologies for business consulting. Policies are current as of July 2025.
+            Various third-party AI engines may be used based on consulting needs and to enhance strategic analysis quality. Each provider has publicly stated data use and retention policies, which are respected. These choices are made strategically to increase accessibility and responsible adoption of AI technologies for business consulting. Policies are current as of July 2025.
           </p>
           
           <div className="overflow-x-auto">
@@ -251,9 +251,9 @@ export default function ResponsibleAI() {
 
         {/* Brand Commitments */}
         <div className="bg-gradient-to-br from-blue-600 to-indigo-600 rounded-xl p-8 text-white mb-12">
-          <h2 className="text-3xl font-bold mb-6 text-center">Our Commitments</h2>
+          <h2 className="text-3xl font-bold mb-6 text-center">CognitiveInsight.ai&apos;s Commitments</h2>
           <p className="text-blue-100 text-center mb-8">
-            We hold ourselves accountable to these commitments in all our strategic consulting endeavors:
+            These commitments are upheld in all strategic consulting endeavors:
           </p>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="space-y-4">

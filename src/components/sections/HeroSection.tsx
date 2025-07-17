@@ -15,17 +15,23 @@ export default function HeroSection() {
           A secure, AI-augmented consulting platform that helps you develop insight, 
           make confident decisions, and act with purpose in an uncertain world.
         </p>
+
+        <div className="bg-orange-50 border border-orange-200 rounded-lg p-4 mb-6 max-w-2xl mx-auto">
+          <p className="text-orange-800 font-medium text-sm">
+            🚀 Currently in development - Your feedback shapes what this becomes
+          </p>
+        </div>
       
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Link href="/services">
-            <Button size="lg" className="group">
-              Explore Services
+          <Link href="/early-access">
+            <Button size="lg" className="group bg-orange-600 hover:bg-orange-700">
+              Early Access Preview
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
           </Link>
-          <Link href="/about">
+          <Link href="/services">
             <Button variant="outline" size="lg">
-              Learn More
+              Explore Services
             </Button>
           </Link>
         </div>

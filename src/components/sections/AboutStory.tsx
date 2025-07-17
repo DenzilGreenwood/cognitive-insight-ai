@@ -25,7 +25,7 @@ const defaultDifferentiators: DifferentiatorItem[] = [
   {
     icon: <Zap className="h-6 w-6 text-blue-200 mr-3 mt-1" />,
     title: "AI-Human Synthesis",
-    description: "We augment human insight with AI capabilities, not replace judgment with algorithms."
+    description: "Human insight is augmented with AI capabilities, not replaced judgment with algorithms."
   },
   {
     icon: <Target className="h-6 w-6 text-blue-200 mr-3 mt-1" />,
@@ -49,7 +49,7 @@ export default function AboutStory({
         </div>
       </div>
       <div className="bg-gradient-to-br from-blue-600 to-indigo-600 rounded-xl p-8 text-white">
-        <h3 className="text-2xl font-bold mb-6">What Makes Us Different</h3>
+        <h3 className="text-2xl font-bold mb-6">What Makes CognitiveInsight.ai Different</h3>
         <div className="space-y-4">
           {differentiators.map((item, index) => (
             <div key={index} className="flex items-start">

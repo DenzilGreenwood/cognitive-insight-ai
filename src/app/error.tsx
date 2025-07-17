@@ -30,7 +30,7 @@ export default function Error({
           <div className="text-6xl font-bold text-red-500 mb-4">⚠️</div>
           <h1 className="text-2xl font-bold text-gray-900 mb-4">Something went wrong</h1>
           <p className="text-gray-600 mb-6">
-            We encountered an unexpected error. Don&apos;t worry - our team has been notified and is working to resolve this issue.
+            An unexpected error was encountered. Don&apos;t worry - I have been notified and am working to resolve this issue.
           </p>
           
           {/* Error Details (only in development) */}

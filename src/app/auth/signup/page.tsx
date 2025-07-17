@@ -356,7 +356,7 @@ export default function SignUpPage() {
             <div>
               <p className="text-sm text-blue-800 font-medium">Your encryption passphrase</p>
               <p className="text-xs text-blue-600 mt-1">
-                This passphrase encrypts your data locally. We cannot recover it if lost. 
+                This passphrase encrypts your data locally. It cannot be recovered if lost. 
                 Please store it safely!
               </p>
             </div>
