@@ -10,7 +10,8 @@ export default function SignInForm() {
   const [formData, setFormData] = useState({
     email: '',
     password: '',
-    rememberMe: false
+    rememberMe: false,
+    agreeToTerms: false
   });
   const [showPassword, setShowPassword] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -133,9 +134,34 @@ export default function SignInForm() {
             </Link>
           </div>
 
+          {/* Terms of Service Agreement */}
+          <div className="flex items-start">
+            <input
+              id="agreeToTerms"
+              name="agreeToTerms"
+              type="checkbox"
+              checked={formData.agreeToTerms}
+              onChange={handleInputChange}
+              required
+              className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded mt-1"
+            />
+            <label htmlFor="agreeToTerms" className="ml-2 block text-sm text-gray-700">
+              I agree to the{' '}
+              <Link 
+                href="/terms-privacy-ethics" 
+                target="_blank"
+                className="text-blue-600 hover:text-blue-800 underline"
+              >
+                Terms of Service
+              </Link>
+              , including the use of AI services (Gemini AI and OpenAI) as outlined in our terms. 
+              By checking this box, I confirm I have read and agree to abide by all terms and conditions.
+            </label>
+          </div>
+
           <button
             type="submit"
-            disabled={loading}
+            disabled={loading || !formData.agreeToTerms}
             className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center"
           >
             {loading ? (
